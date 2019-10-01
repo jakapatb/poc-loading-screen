@@ -74,7 +74,7 @@ function App() {
         : data.map(({ image, avatar, title, content }) => (
             <ContentCard
               type=""
-              loading={true}
+              loading={loading}
               image={image}
               avatar={avatar}
               title={title}
